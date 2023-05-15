@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 
 //middleware
 app.use((req,res,next)=>{
-res.setHeader("Access-Control-Allow-Origin","*");
+res.setHeader("Access-Control-Allow-Origin","https://farmeasyyy.onrender.com");
 res.header(
     "Access-Control-Allow-Headers",
     "Origin,X-Requested-With,Control-Type, Accept"
