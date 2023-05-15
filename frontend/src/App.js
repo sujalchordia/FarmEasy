@@ -18,7 +18,7 @@ import UpdateReview from './components/UpdateReview';
 function App() {
   return (
     <Router>
-      <div style={{backgroundColor:"#fffcf4"}}>
+      <div style={{backgroundColor:"#fcf8e8"}}>
         <Routes>
           <Route exact path="/" element={<Home />}/>
           <Route exact path="/login" element={<Login />}/>

@@ -69,7 +69,7 @@ function ItemDetails() {
     <>
     <Navbar />
         <div className='text-center container' style={{"border":"none !important","display":"flow-root"}}>
-      <div className=" my-5 text-center" style={{"maxWidth": "70%",margin:"0 auto",backgroundColor:"#fffcf4"}}>    
+      <div className=" my-5 text-center" style={{"maxWidth": "70%",margin:"0 auto",backgroundColor:"#fcf8e8"}}>    
         <div className="card border-0">
           <div className="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
             <img src={img} className="img-fluid" style={{"height":"20rem","width":"100%","objectFit":"cover"}} />
@@ -77,10 +77,10 @@ function ItemDetails() {
               <div className="mask" style={{"backgroundColor":" rgba(251, 251, 251, 0.15)"}}></div>
             </a>
           </div>
-          <span style={{ fontSize:"1rem",padding:"1rem",backgroundColor:"#fffcf4"}} >
+          <span style={{ fontSize:"1rem",padding:"1rem",backgroundColor:"#fcf8e8"}} >
             {description}
           </span>
-          <div className="card-body" style={{backgroundColor:"#fffcf4"}}>
+          <div className="card-body" style={{backgroundColor:"#fcf8e8"}}>
             <div style={{display:"flex"}}>
             <h5 className="card-title font-weight-bold" style={{"fontSize":"1.3rem",display:"inline"}}><a>{name}</a></h5>
             </div>

@@ -68,7 +68,7 @@ export default function Card({_id,name,description,img,options}) {
           <div className="mask" style={{"backgroundColor":" rgba(251, 251, 251, 0.15)"}}></div>
         </a>
       </div>
-      <div className="card-body" style={{backgroundColor:"#fffcf4"}}>
+      <div className="card-body" style={{backgroundColor:"#fcf8e8"}}>
         {
           reviews?
           <div style={{display:"flex"}}>

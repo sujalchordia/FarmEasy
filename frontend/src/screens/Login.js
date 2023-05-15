@@ -32,7 +32,7 @@ function Login() {
       }
   }
   return (
-    <section className="vh-100"style={{backgroundColor:"#fffcf4"}}>
+    <section className="vh-100"style={{backgroundColor:"#fcf8e8"}}>
       {showsuccessmessage && 
                 <div style={{position: "sticky",top:"50%",opacity:"0.75",  textAlign:"center",width:"fit-content", margin: "auto",zIndex:"9999"}} className="alert alert-success" role="alert">
                 Registered Succesfully!
