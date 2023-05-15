@@ -29,7 +29,7 @@ function UpdateReview() {
       by,
       _id
     };
-    const response= await fetch("http://localhost:5000/api/updatereviews",{
+    const response= await fetch("https://farmeasy-zwa7.onrender.com/api/updatereviews",{
             method:"POST",
             headers:{
                 'Content-Type':"application/json",
@@ -48,7 +48,7 @@ function UpdateReview() {
 
     const handleDelete = async (e) => {
         e.preventDefault();
-        const response= await fetch("http://localhost:5000/api/deletereviews",{
+        const response= await fetch("https://farmeasy-zwa7.onrender.com/api/deletereviews",{
                 method:"POST",
                 headers:{
                     'Content-Type':"application/json",
