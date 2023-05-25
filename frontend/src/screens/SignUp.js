@@ -8,7 +8,7 @@ function SignUp() {
     const handleSubmit=async(e)=>{
         if(credentials.name && credentials.email && credentials.password && credentials.location){
           e.preventDefault();
-        const response= await fetch("http://localhost:5000/api/createuser",{
+        const response= await fetch("https://farmeasy-zwa7.onrender.com/api/createuser",{
             method:"POST",
             headers:{
                 'Content-Type':"application/json",

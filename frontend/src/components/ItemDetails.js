@@ -39,7 +39,7 @@ function ItemDetails() {
   }, []);
 
     async function fetchReviews() {
-    const response = await fetch("http://localhost:5000/api/listitems",{
+    const response = await fetch("https://farmeasy-zwa7.onrender.com/api/listitems",{
         method:"POST",
         headers:{
           'Content-Type':"application/json",
