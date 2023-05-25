@@ -27,7 +27,7 @@ function ReviewForm() {
       by,
       _id
     };
-    const response= await fetch("https://farmeasy-zwa7.onrender.com/api/addreviews",{
+    const response= await fetch("http://localhost:5000/api/addreviews",{
             method:"POST",
             headers:{
                 'Content-Type':"application/json",

@@ -16,7 +16,7 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-lg">
     <div className="container-fluid">
     <Link to ="/" className="navbar-brand fs-3 display-5 font-weight-bold fst-italic" style={{"fontSize":"10px"}}>
-      <img style={{width:"2.5rem"}}src={process.env.PUBLIC_URL +"/20230407_150210_0000-modified.png"}/>
+      <img style={{width:"2.5rem"}}src={process.env.PUBLIC_URL +"/20230226_184157_0000-modified.png"}/>
     </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>

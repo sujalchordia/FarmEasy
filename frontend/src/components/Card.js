@@ -17,7 +17,7 @@ export default function Card({_id,name,description,img,options}) {
   const navigate=useNavigate();
   const{adding,cart,showsuccessmessage,setShowSuccessMessage,fooditems}=useGlobalContext();
   const loadData=async()=>{
-    let response= await fetch("https://farmeasy-zwa7.onrender.com/api/listitems",{
+    let response= await fetch("http://localhost:5000/api/listitems",{
       method:"POST",
       headers:{
         'Content-Type':"application/json",

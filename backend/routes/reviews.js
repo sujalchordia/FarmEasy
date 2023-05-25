@@ -40,7 +40,7 @@ router.post("/deletereviews",async(req,res)=>{
         const newreview=fooditem.reviews.filter((r)=>{
             if(req.body.by!=r.by){
                 return true;
-            }
+            } 
             return false
         })
         await food_items.findByIdAndUpdate(req.body._id,{reviews:newreview}).then(()=>{
