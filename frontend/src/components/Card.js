@@ -63,7 +63,7 @@ export default function Card({_id,name,description,img,options}) {
   <section className=" my-5" style={{"maxWidth": "20rem"}}>    
     <div className="card border-0">
       <div className="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-        <img src={img} className="img-fluid" style={{"height":"9rem","width":"16rem","objectFit":"cover"}} />
+        <img src={img} className="img-fluid" style={{"height":"9rem","width":"100%","objectFit":"cover"}} />
         <a href="#!">
           <div className="mask" style={{"backgroundColor":" rgba(251, 251, 251, 0.15)"}}></div>
         </a>
