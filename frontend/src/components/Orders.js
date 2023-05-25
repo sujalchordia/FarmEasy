@@ -12,7 +12,7 @@ function MyOrders() {
     const navigate=useNavigate();
     const fetchMyOrder = async () => {
         console.log(localStorage.getItem('userEmail'))
-        await fetch("https://farmeasy-zwa7.onrender.com/api/myOrderData", {
+        await fetch("`https://farmeasy-zwa7.onrender.com/api/myOrderData`", {
             // credentials: 'include',
             // Origin:"http://localhost:3000/login",
             method: 'POST',
@@ -43,7 +43,7 @@ function MyOrders() {
         <div className="row justify-content-center">
           <div className="col-md-6 text-center">
             <i className="bi bi-cart-x" style={{"font-size": "4rem;"}}></i>
-            <h4 className="mt-3">You havent't ordered yet</h4>
+            <h4 className="mt-3">You haven't ordered yet</h4>
             <p className="text-muted">Start shopping now to add items to your cart.</p>
             <Link to="/" className="btn btn-secondary">Shop Now</Link>
           </div>

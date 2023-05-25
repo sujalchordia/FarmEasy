@@ -24,6 +24,7 @@ function Login() {
       const json = await response.json()
       console.log(json)
       if(json.success){
+        localStorage.setItem("userEmail",email)
         localStorage.setItem("name",json.username)
         localStorage.setItem("id",json._id)
         localStorage.setItem("image",json.image)
