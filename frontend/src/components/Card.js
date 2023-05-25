@@ -79,14 +79,14 @@ export default function Card({_id,name,description,img,options}) {
         }
 
         <hr className="my-4" />
-        <select onClick={(e)=>{setNumber(e.target.value)}} className='m-2 h-100 w-40 rounded form-select form-select-sm'style={{"width":"40%","display":"inline"}}>
+        <select onChange={(e)=>{setNumber(e.target.value)}} className='m-2 h-100 w-40 rounded form-select form-select-sm'style={{"width":"40%","display":"inline"}}>
                      {Array.from(Array(6),(e,i)=>{
                         return(
                             <option key={i+1} value={i+1}>{i+1}</option>
                         )
                     })}
             </select>
-            <select className='m-2 h-100 w-40 rounded form-select form-select-sm'style={{"width":"40%","display":"inline"}} onClick={(e)=>{setSize(e.target.value)}}>
+            <select className='m-2 h-100 w-40 rounded form-select form-select-sm'style={{"width":"40%","display":"inline"}} onChange={(e)=>{setSize(e.target.value)}}>
               {priceOptions.map((option)=>{
                 return(
                   <option key={option} value={option}>{option}</option>
